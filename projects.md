@@ -1,4 +1,5 @@
-<button type="button" href="index.md">Back</button>
+<button onclick="location.href = 'index.md'">Back</button>
+
 # Telegram Channels
 
 ## [Beats Channel (mmakebeats)](https://t.me/mmakebeats)
