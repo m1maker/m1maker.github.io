@@ -1,4 +1,4 @@
-<button onclick="location.href = 'index.md'">Back</button>
+<button onclick="location.href = 'index.html'">Back</button>
 
 # Telegram Channels
 
