@@ -7,6 +7,8 @@
 **Language:** English
 
 In this channel, you can purchase beats across various genres.
+> [ !Warning]
+> Exclusive orders are not available yet!
 
 ## [NGT (New Game Toolkit) - Archived](https://t.me/NewGameToolkit)
 
