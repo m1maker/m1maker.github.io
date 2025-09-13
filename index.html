@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Georgiy (M_maker / m1maker) - Portfolio</title>
+    <style>
+        :root {
+            --primary-color: #2c3e50;
+            --secondary-color: #3498db;
+            --accent-color: #e74c3c;
+            --success-color: #27ae60;
+            --text-color: #333;
+            --light-bg: #f9f9f9;
+            --dark-bg: #34495e;
+            --light-text: #ecf0f1;
+        }
+        
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+        
+        body {
+            color: var(--text-color);
+            line-height: 1.6;
+            background-color: var(--light-bg);
+        }
+        
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 20px;
+        }
+        
+        header {
+            background-color: var(--primary-color);
+            color: var(--light-text);
+            padding: 2rem 0;
+            text-align: center;
+        }
+        
+        header h1 {
+            font-size: 2.5rem;
+            margin-bottom: 0.5rem;
+        }
+        
+        .tagline {
+            font-size: 1.2rem;
+            opacity: 0.8;
+        }
+        
+        section {
+            padding: 3rem 0;
+        }
+        
+        .about {
+            background-color: white;
+        }
+        
+        .donate {
+            background-color: var(--light-bg);
+            text-align: center;
+        }
+        
+        .section-title {
+            text-align: center;
+            margin-bottom: 2rem;
+            color: var(--primary-color);
+            position: relative;
+        }
+        
+        .section-title::after {
+            content: '';
+            display: block;
+            width: 50px;
+            height: 3px;
+            background-color: var(--secondary-color);
+            margin: 0.5rem auto;
+        }
+        
+        .about-content {
+            max-width: 800px;
+            margin: 0 auto;
+            text-align: center;
+        }
+        
+        .language-note {
+            font-style: italic;
+            margin-top: 1rem;
+            opacity: 0.7;
+        }
+        
+        .donate-content {
+            max-width: 800px;
+            margin: 0 auto;
+            text-align: center;
+        }
+        
+        .donate-options {
+            display: flex;
+            justify-content: center;
+            gap: 1.5rem;
+            flex-wrap: wrap;
+            margin-top: 1.5rem;
+        }
+        
+        .donate-button {
+            display: inline-flex;
+            align-items: center;
+            padding: 0.8rem 1.5rem;
+            background-color: var(--success-color);
+            color: white;
+            text-decoration: none;
+            border-radius: 4px;
+            transition: all 0.3s;
+            font-weight: 500;
+        }
+        
+        .donate-button:hover {
+            background-color: #219653;
+            transform: translateY(-2px);
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+        }
+        
+        .donate-button i {
+            margin-right: 0.5rem;
+            font-size: 1.2rem;
+        }
+        
+        .cta-button {
+            display: inline-block;
+            margin-top: 1.5rem;
+            padding: 0.8rem 1.5rem;
+            background-color: var(--secondary-color);
+            color: white;
+            text-decoration: none;
+            border-radius: 4px;
+            transition: background-color 0.3s;
+        }
+        
+        .cta-button:hover {
+            background-color: #2980b9;
+        }
+        
+        .contact {
+            background-color: var(--dark-bg);
+            color: var(--light-text);
+            text-align: center;
+        }
+        
+        .contact-options {
+            display: flex;
+            justify-content: center;
+            gap: 1.5rem;
+            flex-wrap: wrap;
+            margin-top: 1.5rem;
+        }
+        
+        .contact-button {
+            display: inline-flex;
+            align-items: center;
+            padding: 0.8rem 1.5rem;
+            background-color: var(--accent-color);
+            color: white;
+            text-decoration: none;
+            border-radius: 4px;
+            transition: background-color 0.3s;
+        }
+        
+        .contact-button:hover {
+            background-color: #c0392b;
+        }
+        
+        .contact-button i {
+            margin-right: 0.5rem;
+        }
+        
+        footer {
+            background-color: var(--primary-color);
+            color: var(--light-text);
+            text-align: center;
+            padding: 1.5rem 0;
+            font-size: 0.9rem;
+        }
+        
+        @media (max-width: 768px) {
+            header h1 {
+                font-size: 2rem;
+            }
+            
+            .contact-options,
+            .donate-options {
+                flex-direction: column;
+                align-items: center;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Georgiy (M_maker / m1maker)</h1>
+            <p class="tagline">Music Creator & Software Developer</p>
+        </div>
+    </header>
+    
+    <section class="about">
+        <div class="container">
+            <h2 class="section-title">About Me</h2>
+            <div class="about-content">
+                <p>Hi, I'm Georgiy, also known as M_maker (Music_maker) or m1maker on GitHub. I create music and work on programming projects. This website provides information about my work.</p>
+                <p>You can learn more about my projects below. For specific inquiries, custom music, or software orders, please message me using methods in the contact section.</p>
+                <p class="language-note">Note: I develop content and software in both English and Russian.</p>
+                <a href="./projects.html" class="cta-button">View My Projects</a>
+            </div>
+        </div>
+    </section>
+    
+    <section class="donate">
+        <div class="container">
+            <h2 class="section-title">Support My Work</h2>
+            <div class="donate-content">
+                <p>If you appreciate my work and would like to support my creative and development efforts, consider making a donation.</p>
+                
+                <div class="donate-options">
+                    <a href="https://yoomoney.ru/to/4100119325654802" class="donate-button" target="_blank">
+                        <i>💳</i> Donate via Yoomoney
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <section class="contact">
+        <div class="container">
+            <h2 class="section-title">Contact & Orders</h2>
+            <div class="contact-options">
+                <a href="https://t.me/m_maker2009" class="contact-button">
+                    <i>📱</i> Contact Me via Telegram
+                </a>
+                <a href="mailto:georgijbondarenko248@gmail.com" class="contact-button">
+                    <i>✉️</i> Contact Me via Email
+                </a>
+            </div>
+        </div>
+    </section>
+    
+    <footer>
+        <div class="container">
+            <p>© 2025 Georgiy (M_maker / m1maker). All rights reserved.</p>
+        </div>
+    </footer>
+</body>
+</html>
