@@ -1,0 +1,34 @@
+{
+  "en": {
+    "title": "Georgiy (M_maker / m1maker) - Portfolio",
+    "header_name": "Georgiy (M_maker / m1maker)",
+    "header_tagline": "Music Creator & Software Developer",
+    "about_title": "About Me",
+    "about_text1": "Hi, I'm Georgiy, also known as M_maker (Music_maker) or m1maker on GitHub. I create music and work on programming projects. This website provides information about my work.",
+    "about_text2": "You can learn more about my projects below. For specific inquiries, custom music, or software orders, please message me using methods in the contact section.",
+    "about_note": "Note: I develop content and software in both English and Russian.",
+    "projects_button": "View My Projects",
+    "donate_title": "Support My Work",
+    "donate_text": "If you appreciate my work and would like to support my creative and development efforts, consider making a donation.",
+    "donate_button": "Donate via Yoomoney",
+    "contact_title": "Contact & Orders",
+    "contact_telegram": "Contact Me via Telegram",
+    "contact_email": "Contact Me via Email"
+  },
+  "ru": {
+    "title": "Георгий (M_maker / m1maker) - Портфолио",
+    "header_name": "Георгий (M_maker / m1maker)",
+    "header_tagline": "Создатель музыки и разработчик программного обеспечения",
+    "about_title": "Обо мне",
+    "about_text1": "Привет, я Георгий, также M_maker (Music_maker) или m1maker на GitHub. Я создаю музыку и разрабатываю программное обеспечение.",
+    "about_text2": "Вы можете узнать больше о моих проектах ниже. Для конкретных запросов или предложений, заказа кастомной музыки или программного обеспечения, пожалуйста, свяжитесь со мной используя методы из секции контакты.",
+    "about_note": "Примечание: Я разрабатываю контент и программное обеспечение на английском и русском языках.",
+    "projects_button": "Мои проекты",
+    "donate_title": "Поддержать мою работу",
+    "donate_text": "Если вам нравится моя работа и вы хотите поддержать мои усилия, рассмотрите возможность сделать пожертвование.",
+    "donate_button": "Пожертвовать через ЮMoney",
+    "contact_title": "Контакты",
+    "contact_telegram": "Связаться через Telegram",
+    "contact_email": "Связаться через Email"
+  }
+}

@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Georgiy (M_maker / m1maker) - Portfolio</title>
+    <title data-i18n="title"></title>
     <style>
         :root {
             --primary-color: #2c3e50;
@@ -202,31 +202,36 @@
 <body>
     <header>
         <div class="container">
-            <h1>Georgiy (M_maker / m1maker)</h1>
-            <p class="tagline">Music Creator & Software Developer</p>
+            <h1 data-i18n="header_name"></h1>
+            <p class="tagline" data-i18n="header_tagline"></p>
+        </div>
+        <div class="language-selector">
+            <select id="languageSelect">
+                <option value="en">English</option>
+                <option value="ru">Русский</option>
+            </select>
         </div>
     </header>
     
     <section class="about">
         <div class="container">
-            <h2 class="section-title">About Me</h2>
+            <h2 class="section-title" data-i18n="about_title"></h2>
             <div class="about-content">
-                <p>Hi, I'm Georgiy, also known as M_maker (Music_maker) or m1maker on GitHub. I create music and work on programming projects. This website provides information about my work.</p>
-                <p>You can learn more about my projects below. For specific inquiries, custom music, or software orders, please message me using methods in the contact section.</p>
-                <p class="language-note">Note: I develop content and software in both English and Russian.</p>
-                <a href="./projects.html" class="cta-button">View My Projects</a>
+                <p data-i18n="about_text1"></p>
+                <p data-i18n="about_text2"></p>
+                <p class="language-note" data-i18n="about_note"></p>
+                <a href="./projects.html" class="cta-button" data-i18n="projects_button"></a>
             </div>
         </div>
     </section>
     
     <section class="donate">
         <div class="container">
-            <h2 class="section-title">Support My Work</h2>
+            <h2 class="section-title" data-i18n="donate_title"></h2>
             <div class="donate-content">
-                <p>If you appreciate my work and would like to support my creative and development efforts, consider making a donation.</p>
-                
+                <p data-i18n="donate_text"></p>
                 <div class="donate-options">
-                    <a href="https://yoomoney.ru/to/4100119325654802" class="donate-button" target="_blank">
+                    <a href="https://yoomoney.ru/to/4100119325654802" class="donate-button" target="_blank" data-i18n="donate_button">
                         <i>💳</i> Donate via Yoomoney
                     </a>
                 </div>
@@ -236,13 +241,13 @@
     
     <section class="contact">
         <div class="container">
-            <h2 class="section-title">Contact & Orders</h2>
+            <h2 class="section-title" data-i18n="contact_title"></h2>
             <div class="contact-options">
-                <a href="https://t.me/m_maker2009" class="contact-button">
-                    <i>📱</i> Contact Me via Telegram
+                <a href="https://t.me/m_maker2009" class="contact-button" data-i18n="contact_telegram">
+                    <i>📱</i>
                 </a>
-                <a href="mailto:georgijbondarenko248@gmail.com" class="contact-button">
-                    <i>✉️</i> Contact Me via Email
+                <a href="mailto:georgijbondarenko248@gmail.com" class="contact-button" data-i18n="contact_email">
+                    <i>✉️</i>
                 </a>
             </div>
         </div>
@@ -253,5 +258,6 @@
             <p>© 2025 Georgiy (M_maker / m1maker). All rights reserved.</p>
         </div>
     </footer>
+    <script src="translator.js"></script>
 </body>
 </html>

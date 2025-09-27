@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Projects - Georgiy (M_maker / m1maker)</title>
+    <title data-i18n="title">My Projects - Georgiy (M_maker / m1maker)</title>
     <style>
         :root {
             --primary-color: #2c3e50;
@@ -183,23 +183,29 @@
 <body>
     <header>
         <div class="container header-content">
-            <h1>My Projects</h1>
-            <a href="index.html" class="back-button">← Back to Home</a>
+            <h1 data-i18n="header_title"></h1>
+            <a href="index.html" class="back-button" data-i18n="back_button">←</a>
+        </div>
+        <div class="language-selector">
+            <select id="languageSelect">
+                <option value="en">English</option>
+                <option value="ru">Русский</option>
+            </select>
         </div>
     </header>
     
     <div class="container">
-        <h2 class="section-title">Telegram Channels</h2>
+        <h2 class="section-title" data-i18n="telegram_title"></h2>
         
         <div class="projects-grid">
             <div class="project-card">
                 <div class="card-content">
                     <h3 class="project-title">
-                        <a href="https://t.me/mmakebeats" target="_blank">Beats Channel (mmakebeats)</a>
+                        <a href="https://t.me/mmakebeats" target="_blank" data-i18n="beats_channel"></a>
                     </h3>
-                    <p class="project-description">Purchase beats across various genres.</p>
+                    <p class="project-description" data-i18n="beats_description"></p>
                     <div class="project-meta">
-                        <span class="language-tag">English</span>
+                        <span class="language-tag" data-i18n="language_english"></span>
                     </div>
                 </div>
             </div>
@@ -207,12 +213,12 @@
             <div class="project-card">
                 <div class="card-content">
                     <h3 class="project-title">
-                        <a href="https://t.me/NewGameToolkit" target="_blank">NGT (New Game Toolkit)</a>
+                        <a href="https://t.me/NewGameToolkit" target="_blank" data-i18n="ngt_channel"></a>
                     </h3>
-                    <p class="project-description">An open-source game engine that uses AngelScript as its internal scripting language. Designed for users with visual impairments with screen reader support.</p>
+                    <p class="project-description" data-i18n="ngt_description"></p>
                     <div class="project-meta">
-                        <span class="language-tag">English</span>
-                        <span class="status-tag status-archived">Archived</span>
+                        <span class="language-tag" data-i18n="language_english"></span>
+                        <span class="status-tag status-archived" data-i18n="status_free"></span>
                     </div>
                 </div>
             </div>
@@ -220,11 +226,11 @@
             <div class="project-card">
                 <div class="card-content">
                     <h3 class="project-title">
-                        <a href="https://t.me/mmakesoft" target="_blank">Software Channel</a>
+                        <a href="https://t.me/mmakesoft" target="_blank" data-i18n="software_channel"></a>
                     </h3>
-                    <p class="project-description">Desktop applications or utilities with a focus on accessibility.</p>
+                    <p class="project-description" data-i18n="software_description"></p>
                     <div class="project-meta">
-                        <span class="language-tag">Russian</span>
+                        <span class="language-tag" data-i18n="language_russian"></span>
                     </div>
                 </div>
             </div>
@@ -232,11 +238,11 @@
             <div class="project-card">
                 <div class="card-content">
                     <h3 class="project-title">
-                        <a href="https://t.me/mmakecode" target="_blank">Programming Blog</a>
+                        <a href="https://t.me/mmakecode" target="_blank" data-i18n="programming_channel"></a>
                     </h3>
-                    <p class="project-description">My development blog about programming and software creation.</p>
+                    <p class="project-description" data-i18n="programming_description"></p>
                     <div class="project-meta">
-                        <span class="language-tag">Russian</span>
+                        <span class="language-tag" data-i18n="language_russian"></span>
                     </div>
                 </div>
             </div>
@@ -244,27 +250,28 @@
             <div class="project-card">
                 <div class="card-content">
                     <h3 class="project-title">
-                        <a href="https://t.me/ringtonesounds" target="_blank">Phone Ringtones and Sounds</a>
+                        <a href="https://t.me/ringtonesounds" target="_blank" data-i18n="ringtones_channel"></a>
                     </h3>
-                    <p class="project-description">Original sounds for phones and other devices: ringtones, notifications, alarms, and other UI sounds.</p>
+                    <p class="project-description" data-i18n="ringtones_description"></p>
                     <div class="project-meta">
-                        <span class="language-tag">Russian</span>
-                        <span class="status-tag">Free</span>
+                        <span class="language-tag" data-i18n="language_russian"></span>
+                        <span class="status-tag" data-i18n="status_free"></span>
                     </div>
                 </div>
             </div>
         </div>
         
         <div class="platforms-section">
-            <h2 class="section-title">Other Platforms</h2>
+            <h2 class="section-title" data-i18n="platforms_title"></h2>
             
             <div class="platform-card">
                 <h3 class="project-title">
-                    <a href="https://github.com/m1maker" target="_blank">GitHub (m1maker)</a>
+                    <a href="https://github.com/m1maker" target="_blank" data-i18n="github_platform"></a>
                 </h3>
-                <p class="project-description">Various software for desktop or SDKs/APIs for developers, often with a focus on accessibility.</p>
+                <p class="project-description" data-i18n="github_description"></p>
             </div>
         </div>
     </div>
+    <script src="translator.js"></script>
 </body>
 </html>
